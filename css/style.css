@@ -1,0 +1,94 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.62;
+}
+a, button {
+    transition: all .3s linear;
+}
+a:focus, a:hover {
+    text-decoration: none;
+}
+.header-block {
+    background-color: #0d0826;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+.header-row-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header-contact-block {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.header-contact-block a {
+    color: #fff;
+    font-size: 22px;
+    margin-left: 15px;
+    border-bottom: 1px solid transparent;
+}
+.header-contact-block a:hover {
+    border-bottom: 1px solid #fff;
+}
+.order-button-click {
+    padding: 12px 22px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    position: relative; 
+}
+.order-button-click-header {
+    margin-left: 15px;
+}
+.order-button-click:after {
+    content: " ";
+    border: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: all 0.4s;
+}
+.order-button-click:hover:after {
+    border: 2px solid #fff;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+}
+.header-logo img {
+    width: 315px;
+}
+button.close {
+    font-size: 26px;
+    z-index: 1;
+    position: relative;
+    right: 15px;
+    top: 7px;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-weight: bold;
+    }
+}
+@media (max-width: 991px) {
+
+}
+@media(max-width: 767px) {
+
+}
+@media(max-width: 500px) {
+
+}
