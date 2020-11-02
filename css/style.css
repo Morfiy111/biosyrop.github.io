@@ -211,7 +211,6 @@ button.close {
 }
 .goods-title {
     font-weight: bold;
-    margin-bottom: 20px;
     font-size: 20px;
 }
 .footer-page {
@@ -264,6 +263,10 @@ button.close {
 }
 .social-block a:hover, .footer-logo a:hover {
     border: none;
+}
+.goods-price {
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
