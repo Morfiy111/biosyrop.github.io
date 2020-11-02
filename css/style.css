@@ -336,6 +336,9 @@ button.close {
     .main-goods-item {
         width: 100%;
     }
+    .goods-title {
+        text-align: center;
+    }
     .footer-links {
         margin-right: 15px;
     }
