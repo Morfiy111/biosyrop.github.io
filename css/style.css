@@ -122,6 +122,28 @@ button.close {
     color: #fff;
     background-color: #009846;
 }
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: -3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: -3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chevron-background {
+    font-size: 55px;
+    color: #009846;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -130,6 +152,14 @@ button.close {
         font-weight: bold;
     }
     
+}
+@media (max-width: 1199px) {
+    .owl-next {
+        right: 3%;
+    }
+    .owl-prev {
+        left: 3%
+    }
 }
 @media (max-width: 991px) {
     .header-logo img {
