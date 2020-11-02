@@ -286,6 +286,9 @@ button.close {
     .header-contact-block a {
         font-size: 18px;
     }
+    .footer-flex-block {
+        flex-wrap: wrap;
+    }
 }
 @media(max-width: 767px) {
     .header-row-flex {
@@ -333,12 +336,21 @@ button.close {
     .main-goods-item {
         width: 100%;
     }
+    .footer-links {
+        margin-right: 15px;
+    }
 }
 @media(max-width: 500px) {
     .header-logo {
         width: 49%;
     }
+    .footer-logo img {
+        width: 100%;
+    }
     .header-logo img {
+        width: 100%;
+    }
+    .footer-logo {
         width: 100%;
     }
 }
