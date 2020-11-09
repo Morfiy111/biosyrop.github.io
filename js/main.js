@@ -21,3 +21,9 @@ $('.play').on('click', function () {
 $('.stop').on('click', function () {
     owl.trigger('autoplay.stop.owl')
 })
+let number = document.querySelector('#quantity');
+let result = document.querySelector('.configuration-price span');
+let price = document.querySelector('#quantity').getAttribute("data-price");
+number.onchange = function () {
+    result.innerHTML = price * number.value;
+}
