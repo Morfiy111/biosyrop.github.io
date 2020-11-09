@@ -24,6 +24,7 @@ $('.stop').on('click', function () {
 let number = document.querySelector('#quantity');
 let result = document.querySelector('.configuration-price span');
 let price = document.querySelector('#quantity').getAttribute("data-price");
+let volume = document.querySelector('.rabs .active').getAttribute("data-volume");
 number.onchange = function () {
     result.innerHTML = price * number.value;
 }
