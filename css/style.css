@@ -332,6 +332,28 @@ button.close {
     left: 0;
     z-index: 100;
 }
+.flex-contacts-page {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.page-address-item {
+    width: 32%;
+    margin-bottom: 20px;
+}
+.page-address-item a {
+    color: #009846;
+    font-size: 24px;
+}
+.contact-page-address {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.map-contact-block {
+    width: 100%;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
@@ -361,6 +383,9 @@ button.close {
     }
     .footer-flex-block {
         flex-wrap: wrap;
+    }
+    .page-address-item {
+        width: 49%;
     }
 }
 @media(max-width: 767px) {
@@ -420,6 +445,9 @@ button.close {
         margin-bottom: 30px;
     }
     .product-cart-configuration {
+        width: 100%;
+    }
+    .page-address-item {
         width: 100%;
     }
 }
