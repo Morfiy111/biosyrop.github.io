@@ -391,6 +391,15 @@ button.close {
 .product-tags a:hover {
     text-decoration: none;
 }
+.product-cart-table {
+    width: 100%;
+    border: 1px solid #0d0826;
+    margin-bottom: 40px;
+}
+.product-cart-table td {
+    padding: 3px 7px;
+    border: 1px solid #0d0826;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
