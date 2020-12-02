@@ -99,6 +99,10 @@ button.close {
 }
 .header-row-flex i {
     color: #009846;
+    transition: all .3s linear;
+}
+.header-row-flex i:hover {
+    color: #fecc00;
 }
 .menu-line-menu {
     background-color: #fecc00;
