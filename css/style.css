@@ -325,6 +325,9 @@ button.close {
 }
 .btn-toggle {
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .product-cart-description {
     margin-top: 30px;
