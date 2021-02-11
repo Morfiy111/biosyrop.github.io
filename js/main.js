@@ -26,14 +26,14 @@ let result = document.querySelector('.configuration-price span');
 let price = document.querySelector('#quantity').getAttribute('data-price');
 let label = document.querySelectorAll('.btn-default-rabs');
 
-function totalPrice() {
-    for (let i = 0; i < label.length; i++) {
-        label[i].onclick = function () {
-            result.innerHTML = this.getAttribute('data-volume') * (price * number.value);
-        }
-        number.onchange = function () {
-            result.innerHTML = price * this.value;
-        }
-    }
-}
-totalPrice();
+// function totalPrice() {
+//     for (let i = 0; i < label.length; i++) {
+//         label[i].onclick = function () {
+//             result.innerHTML = this.getAttribute('data-volume') * (price * number.value);
+//         }
+//         number.onchange = function () {
+//             result.innerHTML = price * this.value;
+//         }
+//     }
+// }
+// totalPrice();
