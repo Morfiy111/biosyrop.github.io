@@ -195,6 +195,36 @@
                     характеристики</a>
             </div>
         </div>
+        <div class="button-center">
+            <button class="order-button-click" data-target="#modal-main" data-toggle="modal"
+                title="Оставить заявку">ОСТАВИТЬ
+                ЗАЯВКУ</button>
+        </div>
+    </div>
+    <div class="modal fade" id="modal-main" tabindex="-1" role="dialog" aria-labelledby="modal-main" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <div class="modal-body">
+                    <div class="owl-feedback-form">
+                        <h3>Напишите нам!</h3>
+                        <p>Чтобы сделать заказ или оставить заявку, заполните форму ниже! Мы обязательно с Вами
+                            свяжемся!</p>
+                        <form action="/" method="post" id="askform">
+                            <input type="text" placeholder="Ваше имя" id="name" name="fio" required>
+                            <input placeholder="Телефон" id="tel" type="tel" name="tel">
+                            <input placeholder="email" id="email" type="email" name="email" required>
+                            <textarea rows="3" name="question" placeholder="Сообщение..."></textarea>
+                            <div class="button-center">
+                                <button type="submit" id="doask" class="order-button-click">Отправить заявку</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer class="footer-page">
         <div class="container">
