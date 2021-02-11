@@ -404,6 +404,13 @@ button.close {
     padding: 3px 7px;
     border: 1px solid #0d0826;
 }
+.owl-feedback-form input, .owl-feedback-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid #211E1F;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;

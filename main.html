@@ -114,7 +114,7 @@
       </div>
     </div>
     <div class="title-block-hidden title-margin">
-      <h1 class="main-title">БИОСИРОПЫ</h1>
+      <h1 class="main-title">БИОСИРОПЫ И БИОКОНЦЕНТРАТЫ</h1>
     </div>
     <div class="main-goods-flex">
       <div class="main-goods-item">
@@ -211,6 +211,34 @@
     <div class="button-center">
       <a href="#" class="order-button-click">Перейти в каталог</a>
     </div>
+    <div class="button-center">
+      <button class="order-button-click" data-target="#modal-main" data-toggle="modal" title="Оставить заявку">ОСТАВИТЬ
+        ЗАЯВКУ</button>
+    </div>
+  </div>
+  <div class="modal fade" id="modal-main" tabindex="-1" role="dialog" aria-labelledby="modal-main" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+          <span aria-hidden="true">×</span>
+        </button>
+        <div class="modal-body">
+          <div class="owl-feedback-form">
+            <h3>Напишите нам!</h3>
+            <p>Чтобы сделать заказ или оставить заявку, заполните форму ниже! Мы обязательно с Вами свяжемся!</p>
+            <form action="/" method="post" id="askform">
+              <input type="text" placeholder="Ваше имя" id="name" name="fio" required>
+              <input placeholder="Телефон" id="tel" type="tel" name="tel">
+              <input placeholder="email" id="email" type="email" name="email" required>
+              <textarea rows="3" name="question" placeholder="Сообщение..."></textarea>
+              <div class="button-center">
+                <button type="submit" id="doask" class="order-button-click">Отправить заявку</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <footer class="footer-page">
     <div class="container">
@@ -221,10 +249,10 @@
           </a>
         </div>
         <div class="footer-links">
-          <a href="#">Биосироп топинамбура</a>
-          <a href="#">Ячменный солодовый биосироп</a>
-          <a href="#">Ржаной солодовый биосироп</a>
-          <a href="#">Инвертный биосироп</a>
+          <a href="#">Олигофруктозный биосироп</a>
+          <a href="#">Монофруктозный биосироп</a>
+          <a href="#">Ячменный биосироп</a>
+          <a href="#">Ржаной биосироп</a>
         </div>
         <div class="footer-links">
           <a href="#">О нас</a>
@@ -234,7 +262,7 @@
         <div class="footer-address">
           <div class="footer-address-item">
             <a href="mailto:mail@mail.ru"><i class="fa fa-envelope-o" aria-hidden="true"></i>
-              mail@mail.ru</a>
+              mail@biosyrop.ru</a>
           </div>
           <div class="footer-address-item">
             <a href="tel:+74712399612"><i class="fa fa-phone" aria-hidden="true"></i> +7 (4712) 39-96-12</a>
